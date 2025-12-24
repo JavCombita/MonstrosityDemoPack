@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>MonstrosityDemoPack</AssemblyName>
-    <RootNamespace>MonstrosityDemoPack</RootNamespace>
-    <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <GamePath>$(MSBuildProjectDirectory)\Game</GamePath>
     <EnableModDeploy>false</EnableModDeploy>
   </PropertyGroup>
 
