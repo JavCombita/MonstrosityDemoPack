@@ -1,0 +1,14 @@
+{
+  "Name": "Monstrosity Demo [CP]",
+  "Author": "JavCombita",
+  "Version": "1.0.0",
+  "Description": "Componente Content Patcher para probar la inyección JSON.",
+  "UniqueID": "JavCombita.MonstrosityDemo.CP",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    { "UniqueID": "Pathoschild.ContentPatcher", "IsRequired": true },
+    { "UniqueID": "JavCombita.MonstrosityFramework", "IsRequired": true }
+  ]
+}

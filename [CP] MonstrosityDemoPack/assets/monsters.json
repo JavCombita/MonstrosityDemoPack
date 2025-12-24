@@ -1,0 +1,21 @@
+{
+  "VoidWalker": {
+    "DisplayName": "Caminante del Vacío (CP)",
+    "TexturePath": "assets/void_walker.png",
+    "ContentPackID": "JavCombita.MonstrosityDemo.CP", 
+    "SpriteWidth": 16,
+    "SpriteHeight": 24,
+    "MaxHealth": 100,
+    "DamageToFarmer": 10,
+    "Exp": 15,
+    "BehaviorType": "Stalker",
+    "Spawn": {
+      "MinMineLevel": 1,
+      "MaxMineLevel": 120,
+      "SpawnWeight": 1.0
+    },
+    "Drops": [
+      { "ItemId": "768", "Chance": 0.5 }
+    ]
+  }
+}

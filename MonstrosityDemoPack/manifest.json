@@ -1,0 +1,11 @@
+{
+  "Name": "Monstrosity Demo [C# Core]",
+  "Author": "JavCombita",
+  "Version": "1.0.0",
+  "Description": "Mod C# que usa la API de Monstrosity.",
+  "UniqueID": "JavCombita.MonstrosityDemo.Core",
+  "EntryDll": "MonstrosityDemoPack.dll",
+  "Dependencies": [
+    { "UniqueID": "JavCombita.MonstrosityFramework", "IsRequired": true }
+  ]
+}
